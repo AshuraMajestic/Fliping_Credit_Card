@@ -1,0 +1,323 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    left: calc(50% - 262.5px);
+    top: calc(50% - 150px);
+    width: 525px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 2s ease-in-out;
+    animation: ghum 6s linear 1s infinite alternate;
+}
+
+.container1 {
+    position: absolute;
+    left: calc(50% - 262.5px);
+    top: calc(50% - 150px);
+    width: 525px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+@keyframes ghum{
+    50%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+
+#first {
+    position: relative;
+    width: 100%;
+    height: 20%;
+}
+
+.amazon {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+}
+
+.bank {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    right: 20px;
+    top: 5px;
+}
+
+#second {
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
+
+.chip {
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    left: 30px;
+    top: 20px;
+}
+
+#chip {
+    position: absolute;
+    left: 120px;
+    font-size: 40px;
+    transform: rotate(45deg);
+    top: 27px;
+}
+
+#number {
+    position: relative;
+    width: 100%;
+    height: 15%;
+}
+
+#num {
+    position: absolute;
+    font-size: 30px;
+    left: 30px;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+}
+
+.fourth {
+    position: relative;
+    width: 100%;
+    height: 15%;
+}
+
+.thru {
+    position: absolute;
+    left: 30px;
+    width: 150px;
+    height: 40px;
+}
+
+.top {
+    position: absolute;
+    top: 0px;
+}
+
+.down {
+    position: absolute;
+    bottom: 5px;
+}
+
+#date-1 {
+    position: absolute;
+    font-size: 20px;
+    top: 5px;
+    left: 45px;
+}
+
+.then {
+    position: absolute;
+    top: -2px;
+    left: 30px;
+    width: 150px;
+    height: 40px;
+}
+
+#date-2 {
+    position: absolute;
+    font-size: 20px;
+    top: 5px;
+    left: 45px;
+}
+
+.then {
+    position: absolute;
+    left: 200px;
+}
+
+.last {
+    position: relative;
+    width: 100%;
+    height: 10%;
+}
+
+.name {
+    position: absolute;
+    left: 30px;
+    top: -10px;
+    font-size: 25px;
+}
+
+.visa {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+}
+
+.watermark {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.container2 {
+    position: absolute;
+    left: calc(50% - 262.5px);
+    top: calc(50% - 150px);
+    width: 525px;
+    height: 300px;
+    background-color: black;
+    border-radius: 5%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    z-index: -1;
+    transform: rotateY(180deg);
+    color: white;
+}
+
+.i {
+    position: relative;
+    width: 100%;
+    height: 10%;
+}
+
+.phone {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.detail {
+    font-size: 14px;
+}
+
+.number {
+    font-size: 12px;
+    word-spacing: 5px;
+}
+
+.use {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font-size: 14px;
+}
+
+.ii {
+    width: 100%;
+    height: 15%;
+    background-image: linear-gradient(-45deg, rgba(19, 18, 18, 1) 0%, rgba(59, 58, 65, 0.9326923076923077) 49%, rgba(0, 0, 0, 1) 100%);
+}
+
+.cvv_block {
+    position: relative;
+    width: 100%;
+    height: 20%;
+}
+
+.line {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 10px;
+    left: 20px;
+    background-color: white;
+}
+
+.cvv {
+    position: absolute;
+    width: 20%;
+    height: 65%;
+    background-color: white;
+    right: 40px;
+    top: 12px;
+    color: black;
+}
+
+.luck {
+    position: absolute;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+.iv {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    font-size: 14px;
+}
+
+.line-1 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.unknown {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.baki {
+    position: relative;
+    width: 100%;
+    height: 40%;
+}
+
+.chamak {
+    position: absolute;
+    height: 70%;
+    width: 15%;
+    left: 20px;
+    border-radius: 10px;
+}
+
+.words {
+    position: absolute;
+    left: 30%;
+    word-spacing: 2px;
+}
+
+.please {
+    width: 100%;
+    right: -30px;
+    font-size: 14px;
+    ;
+}
+
+.Address {
+    font-size: 12px;
+    word-spacing: 5px;
+}
+
+.rose {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0.8;
+}
